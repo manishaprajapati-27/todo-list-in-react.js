@@ -84,6 +84,7 @@ const TodoForm = () => {
           value={input}
           onChange={(e) => setInput(e.target.value)}
           className="task-input"
+          required
         />
         <div>
           <button className="button" id="add-task">
